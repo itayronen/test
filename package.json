@@ -1,5 +1,5 @@
 {
-  "name": "@itay/test",
+  "name": "itay-test",
   "version": "0.1.0",
   "description": "A testing library extending jasmine.",
   "config": {
