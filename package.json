@@ -1,0 +1,45 @@
+{
+  "name": "@itay/test",
+  "version": "0.1.0",
+  "description": "A testing library extending jasmine.",
+  "config": {
+    "outputDir": "lib"
+  },
+  "main": "./lib/main.js",
+  "typings": "./lib/main.d.ts",
+  "files": [
+    "lib/"
+  ],
+  "author": {
+    "name": "Itay Ronen",
+    "email": "",
+    "url": ""
+  },
+  "license": "",
+  "homepage": "https://github.com/itayronen/test",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itayronen/test.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "jasmine-core": "2.4.1"
+  },
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-delete-lines": "0.0.7",
+    "gulp-live-server": "0.0.30",
+    "gulp-replace": "^0.5.4",
+    "gulp-replace-task": "^0.11.0",
+    "gulp-tap": "^0.1.3",
+    "gulp-ts-export": "^0.1.4",
+    "gulp-typescript": "^2.13.6",
+    "jasmine-core": "2.4.1",
+    "merge2": "^1.0.2",
+    "systemjs": "^0.19.38"
+  }
+}
