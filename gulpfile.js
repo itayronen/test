@@ -63,10 +63,10 @@ gulp.task(generateExportsTask, function () {
 gulp.task(compileTsBundleTask, () => {
     let tsBundledProject = ts.createProject(tsconfigPath, {
         outFile: mainFileName,
-        rootDir: "./"
+        rootDir: typescriptsDir
     });
 
-    return gulp.src(libraryTsSrc.concat(externalTypesSrc))
+    return gulp.src(libraryTsSrc.concat(externalTypesSrc), { base: "" })
         .pipe(sourcemaps.init())
         .pipe(ts(tsBundledProject))
         .pipe(sourcemaps.write())
